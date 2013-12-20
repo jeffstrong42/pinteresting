@@ -10,6 +10,10 @@
 			  	<p><%= @pin.description %></p>
 			  	<p><strong>By <%= @pin.user.name %></strong></p>
 		          <div class="actions">
+		          	<%= link_to pins_path do %>
+					  <span class="glyphicon glyphicon-circle-arrow-left"></span>
+					  Back
+		            <% end %>
 		            <%= link_to edit_pin_path(@pin) do %>
 		              <span class="glyphicon glyphicon-edit"></span>
 		              Edit
