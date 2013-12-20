@@ -17,3 +17,5 @@
 
 #ignore .DS_STORE
 /.DS_STORE 
+
+/public/system/*
